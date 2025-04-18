@@ -28,6 +28,7 @@ public:
 	int				m_fps = 0;					// åªç›ÇÃFPSíl
 	int				m_maxFps = 60;				// ç≈ëÂFPS
 
+	int m_test;//âº
 
 private:
 
