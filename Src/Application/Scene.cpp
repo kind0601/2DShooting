@@ -1,10 +1,10 @@
 #include "main.h"
 #include "Scene.h"
+#include "player.h"
 
 void Scene::Draw2D()
 {
-	// •¶Žš—ñ•\Ž¦
-	SHADER.m_spriteShader.DrawString(0, 0, "Hello World", Math::Vector4(1, 1, 0, 1));
+
 }
 
 void Scene::Update()

@@ -138,6 +138,12 @@
     <ClInclude Include="Src\Application\Scene.h">
       <Filter>Src\Application</Filter>
     </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Src\Application</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pch.cpp">
@@ -201,6 +207,12 @@
       <Filter>Src\System\Window</Filter>
     </ClCompile>
     <ClCompile Include="Src\Application\Scene.cpp">
+      <Filter>Src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Src\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
       <Filter>Src\Application</Filter>
     </ClCompile>
   </ItemGroup>
