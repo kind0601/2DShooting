@@ -28,8 +28,6 @@ public:
 	int				m_fps = 0;					// 現在のFPS値
 	int				m_maxFps = 60;				// 最大FPS
 
-	int m_test;//仮
-
 private:
 
 	// アプリケーション初期化
