@@ -43,6 +43,18 @@
     <Filter Include="Src\System\Audio">
       <UniqueIdentifier>{667d1cb1-5ae5-476f-acd5-14b7d294a95a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Application\Object">
+      <UniqueIdentifier>{c76591a1-6118-4916-87da-4e5b44ec8931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Player">
+      <UniqueIdentifier>{f1a8017a-f3a6-4b7f-9877-8f304fb84427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\Enemy">
+      <UniqueIdentifier>{b8538d78-ad29-49de-9fae-f43e055a5045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Object\BackGround">
+      <UniqueIdentifier>{dc53fcb0-ec95-472a-96ce-34c58168424b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pch.h">
@@ -138,11 +150,14 @@
     <ClInclude Include="Src\Application\Scene.h">
       <Filter>Src\Application</Filter>
     </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Src\Application</Filter>
+    <ClInclude Include="Src\Application\Object\BaseObject.h">
+      <Filter>Src\Application\Object</Filter>
     </ClInclude>
-    <ClInclude Include="enemy.h">
-      <Filter>Src\Application</Filter>
+    <ClInclude Include="Src\Application\Object\Player\Player.h">
+      <Filter>Src\Application\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Object\Enemy\Enemy.h">
+      <Filter>Src\Application\Object\Enemy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -209,11 +224,14 @@
     <ClCompile Include="Src\Application\Scene.cpp">
       <Filter>Src\Application</Filter>
     </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>Src\Application</Filter>
+    <ClCompile Include="Src\Application\Object\BaseObject.cpp">
+      <Filter>Src\Application\Object</Filter>
     </ClCompile>
-    <ClCompile Include="enemy.cpp">
-      <Filter>Src\Application</Filter>
+    <ClCompile Include="Src\Application\Object\Player\Player.cpp">
+      <Filter>Src\Application\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Object\Enemy\Enemy.cpp">
+      <Filter>Src\Application\Object\Enemy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

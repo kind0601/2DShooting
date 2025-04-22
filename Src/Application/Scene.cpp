@@ -1,6 +1,5 @@
 #include "main.h"
 #include "Scene.h"
-#include "player.h"
 
 void Scene::Draw2D()
 {
