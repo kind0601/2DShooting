@@ -52,8 +52,8 @@
     <Filter Include="Src\Application\Object\Enemy">
       <UniqueIdentifier>{b8538d78-ad29-49de-9fae-f43e055a5045}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Src\Application\Object\BackGround">
-      <UniqueIdentifier>{dc53fcb0-ec95-472a-96ce-34c58168424b}</UniqueIdentifier>
+    <Filter Include="Src\Application\Scene">
+      <UniqueIdentifier>{6f76f63c-47e5-4c20-ae61-70e952968d10}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +159,15 @@
     <ClInclude Include="Src\Application\Object\Enemy\Enemy.h">
       <Filter>Src\Application\Object\Enemy</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Application\Scene\GameScene.h">
+      <Filter>Src\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\TitleScene.h">
+      <Filter>Src\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Scene\ResultScene.h">
+      <Filter>Src\Application\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pch.cpp">
@@ -232,6 +241,15 @@
     </ClCompile>
     <ClCompile Include="Src\Application\Object\Enemy\Enemy.cpp">
       <Filter>Src\Application\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\GameScene.cpp">
+      <Filter>Src\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\TitleScene.cpp">
+      <Filter>Src\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\Scene\ResultScene.cpp">
+      <Filter>Src\Application\Scene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

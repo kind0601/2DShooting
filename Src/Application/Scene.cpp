@@ -3,24 +3,18 @@
 
 void Scene::Draw2D()
 {
-
 }
 
 void Scene::Update()
 {
-	
 }
 
 void Scene::Init()
 {
-	// ‰æ‘œ‚Ì“Ç‚İ‚İˆ—
-	charaTex.Load("player.png");
 }
 
 void Scene::Release()
-{
-	// ‰æ‘œ‚Ì‰ğ•úˆ—
-	charaTex.Release();
+{	
 }
 
 void Scene::ImGuiUpdate()
